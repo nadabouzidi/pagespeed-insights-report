@@ -1,0 +1,42 @@
+{
+  "name": "pagespeed-insights-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "jest",
+    "testwatch": "jest --watch *.js",
+    "lint": "eslint .  --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadabouzidi/pagespeed-insights-report.git"
+  },
+  "keywords": [
+    "pagespeed",
+    "insights",
+    "report",
+    "slack",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadabouzidi/pagespeed-insights-report/issues"
+  },
+  "homepage": "https://github.com/nadabouzidi/pagespeed-insights-report#readme",
+  "dependencies": {
+    "@slack/web-api": "^6.1.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "psi": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "jest": "^26.6.3"
+  }
+}
